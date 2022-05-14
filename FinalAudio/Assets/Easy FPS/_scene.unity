@@ -233,7 +233,7 @@ GameObject:
   - component: {fileID: 179583723}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: LevelPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -245,13 +245,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 179583721}
-  m_LocalRotation: {x: -0, y: -0.70068693, z: -0, w: 0.71346885}
-  m_LocalPosition: {x: -94.42, y: 65.4, z: 61.12}
+  m_LocalRotation: {x: -0, y: -0.50362146, z: -0, w: 0.86392444}
+  m_LocalPosition: {x: -95.38398, y: 65.4, z: 58.52462}
   m_LocalScale: {x: 1, y: 3.643, z: 11.209}
   m_Children: []
   m_Father: {fileID: 1066715451}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -88.964, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -60.48, z: 0}
 --- !u!65 &179583723
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -426,7 +426,7 @@ GameObject:
   - component: {fileID: 434325648}
   m_Layer: 0
   m_Name: Cube (3)
-  m_TagString: Untagged
+  m_TagString: LevelPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 525246301}
   m_Layer: 0
   m_Name: Cube (1)
-  m_TagString: Untagged
+  m_TagString: LevelPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -534,13 +534,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 525246299}
-  m_LocalRotation: {x: -0, y: -0.70068693, z: -0, w: 0.71346885}
-  m_LocalPosition: {x: -94.24, y: 65.4, z: 71.31}
+  m_LocalRotation: {x: -0, y: -0.84440356, z: -0, w: 0.5357076}
+  m_LocalPosition: {x: -94.569176, y: 65.4, z: 72.84674}
   m_LocalScale: {x: 1, y: 3.643, z: 11.209}
   m_Children: []
   m_Father: {fileID: 1066715451}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: -88.964, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -115.216, z: 0}
 --- !u!65 &525246301
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -618,7 +618,7 @@ GameObject:
   - component: {fileID: 538181921}
   m_Layer: 0
   m_Name: Cube (2)
-  m_TagString: Untagged
+  m_TagString: LevelPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -866,6 +866,7 @@ Transform:
   - {fileID: 538181920}
   - {fileID: 434325647}
   - {fileID: 1656199186}
+  - {fileID: 1933800419}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1472,7 +1473,7 @@ GameObject:
   - component: {fileID: 1656199187}
   m_Layer: 0
   m_Name: Cube (4)
-  m_TagString: Untagged
+  m_TagString: LevelPart
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1485,8 +1486,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1656199185}
   m_LocalRotation: {x: -0, y: -0.70068693, z: -0, w: 0.71346885}
-  m_LocalPosition: {x: -94.33381, y: 67.726875, z: 66.12076}
-  m_LocalScale: {x: 11.380178, y: 1.0107503, z: 11.209}
+  m_LocalPosition: {x: -94.35, y: 67.726875, z: 65.5}
+  m_LocalScale: {x: 19.286583, y: 1.0107503, z: 11.209}
   m_Children: []
   m_Father: {fileID: 1066715451}
   m_RootOrder: 4
@@ -1650,6 +1651,61 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1878376354}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1933800418
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933800419}
+  - component: {fileID: 1933800420}
+  m_Layer: 0
+  m_Name: ReverbZone
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1933800419
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933800418}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -90.77, y: 65.71, z: 66.25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1066715451}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!167 &1933800420
+AudioReverbZone:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933800418}
+  m_Enabled: 1
+  m_MinDistance: 7.086876
+  m_MaxDistance: 8.564609
+  m_ReverbPreset: 27
+  m_Room: -1000
+  m_RoomHF: -1200
+  m_DecayTime: 4.86
+  m_DecayHFRatio: 1.243
+  m_Reflections: 628
+  m_ReflectionsDelay: 0.242
+  m_Reverb: 344
+  m_ReverbDelay: 0.0437
+  m_HFReference: 5000
+  m_Diffusion: 100
+  m_Density: 100
+  m_LFReference: 610
+  m_RoomLF: 0
 --- !u!1 &1939918810
 GameObject:
   m_ObjectHideFlags: 0
